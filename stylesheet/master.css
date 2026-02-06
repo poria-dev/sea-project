@@ -1,0 +1,422 @@
+.one-sea {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+
+    >video {
+        width: 100%;
+        min-height: 100%;
+
+    }
+
+    >.row {
+        width: 95%;
+        height: 90%;
+        position: absolute;
+        /* border: 2px solid red; */
+        top: 5%;
+        left: 2%;
+        padding: 3%;
+
+        >.ali-row {
+            width: 100%;
+            height: 100%;
+            /* border: 3px solid rgb(0, 0, 0); */
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            text-transform: capitalize;
+
+            >.diva1 {
+
+                height: 100%;
+                width: 30%;
+                /* background-color: rebeccapurple; */
+                backdrop-filter: blur(2px);
+                border-radius: 12px;
+
+                >.just-h {
+                    width: 100%;
+                    height: 10%;
+
+                    /* background-color: aqua; */
+                    >h3 {
+                        color: aliceblue;
+                        font-size: 30px;
+                        margin-left: 5%;
+                        margin-top: 3%;
+                    }
+                }
+
+                >div {
+                    width: 100%;
+                    height: 22.5%;
+                    /* border: 1px solid wheat; */
+                    display: flex;
+
+                    >.img-in {
+                        width: 50%;
+                        height: 100%;
+                        transition: 1s;
+
+                        &:hover {
+                            scale: 1.1;
+                        }
+
+                        /* background-color: brown; */
+                        >figure {
+                            width: 100%;
+                            height: 100%;
+
+                            >img {
+                                width: 85%;
+                                height: 90%;
+                                object-fit: cover;
+                                margin-top: 3%;
+                                margin-left: 6%;
+                                border-radius: 12px;
+                            }
+                        }
+                    }
+
+                    >.text-in {
+                        width: 50%;
+                        height: 100%;
+
+                        /* background-color: greenyellow; */
+                        >.title-in-img {
+                            width: 100%;
+                            height: 30%;
+                            /* border: 1px solid black; */
+
+                            >h5 {
+                                font-size: 18px;
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: rgb(0, 0, 1);
+                                font-weight: 700;
+                            }
+                        }
+
+                        >.textpara-in-img {
+                            width: 100%;
+                            height: 65%;
+                            /* border: 1px solid red; */
+                            text-align: center;
+                            padding: 5px;
+                            font-size: 15px;
+
+                            >p {
+                                color: rgba(255, 255, 255, 0.736);
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            >.diva2 {
+                height: 50%;
+                width: 65%;
+                /* background-color: red; */
+                margin-left: 5%;
+                backdrop-filter: blur(2px);
+                border-radius: 12px;
+                display: flex;
+
+                >.div2img {
+                    height: 100%;
+                    width: 40%;
+                    transition: 1s;
+
+                    &:hover {
+                        scale: 0.8;
+                    }
+
+                    /* border: 1px solid red; */
+
+                    >figure {
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+
+                        >img {
+                            width: 100%;
+                            height: 90%;
+                            object-fit: cover;
+                            margin-top: 5%;
+                            /* margin-left: 5%; */
+                            border-radius: 12px;
+                        }
+
+                        >p {
+                            position: absolute;
+                            top: 28px;
+                            left: 26%;
+                            font-size: 24px;
+                            color: aliceblue;
+
+                        }
+                    }
+
+                }
+
+                >.welcome {
+                    width: 30%;
+                    height: 15%;
+                    /* border: 1px solid red; */
+                    /* display: flex; */
+                    margin-left: 30%;
+                    display: flex;
+                    justify-content: end;
+
+                    >h5 {
+                        color: orangered;
+                        font-size: 24px;
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        height: 100%;
+                        align-items: center;
+                        margin-left: 25px;
+                    }
+                }
+
+                >.div3end {
+                    width: 58%;
+                    height: 80%;
+                    /* border: 1px solid red; */
+                    /* margin-top: 20%; */
+                    position: absolute;
+                    /* margin-left: 10%; */
+                    right: 3px;
+                    bottom: 10px;
+
+                    >.hend {
+                        width: 100%;
+                        height: 30%;
+
+                        /* border: 1px solid black; */
+                        >h4 {
+                            color: floralwhite;
+                            font-size: 28px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100%;
+                            font-weight: 900;
+                        }
+                    }
+
+                    >.paraenddiv2 {
+                        width: 100%;
+                        height: 60%;
+
+                        /* border: 1px solid red; */
+                        >p {
+                            color: rgb(0, 0, 0);
+                            font-size: 25px;
+                            padding: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            font-weight: 900;
+
+                            /* backdrop-filter: blur(5px); */
+                        }
+                    }
+                }
+
+            }
+
+            /* finish div2 */
+
+            >.diva3 {
+                width: 65%;
+                height: 50%;
+                /* background-color: wheat; */
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                backdrop-filter: blur(2px);
+                border-radius: 12px;
+                display: flex;
+
+                >div {
+                    width: 30%;
+                    height: 100%;
+                    /* border: 2px solid red; */
+                    margin-left: 3%;
+                    backdrop-filter: blur(100px);
+
+                    >figure {
+                        width: 100%;
+                        height: 60%;
+
+                        >img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            /* margin-top: 2%; */
+                            border-radius: 10px;
+                            transition: 0.7;
+
+                            &:hover {
+                                scale: 1.1;
+                            }
+                        }
+                    }
+
+                    >.under-img-text {
+                        width: 100%;
+                        height: 10%;
+                        /* border:1px solid palegreen; */
+                        margin-top: 4%;
+
+                        >h4 {
+                            color: aliceblue;
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 20px;
+                        }
+                    }
+
+                    >.div3endpara {
+                        width: 100%;
+                        height: 28%;
+
+                        /* border: 4px solid palevioletred; */
+                        >p {
+                            color: peru;
+                            font-size: 20px;
+                            font-weight: 800;
+                            padding: 5%;
+                            /* text-align: ; */
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.foot {
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgba(220, 224, 227, 0.712);
+    position: relative;
+
+    >.aboutimg {
+        width: 20%;
+        height: 250px;
+        /* border: 2px solid red; */
+        margin-left: 60%;
+        position: absolute;
+        top: 10%;
+        border-radius: 50%;
+        transition: 0.8s;
+
+        &:hover {
+            scale: 1.1;
+        }
+
+        >img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+
+    }
+
+    >.aboutme {
+        width: 40%;
+        height: 80px;
+        /* background-color: rebeccapurple; */
+        margin-left: 150px;
+        position: absolute;
+        top: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >h2 {
+            font-size: 35px;
+            font-weight: 900;
+        }
+    }
+
+    >.aboutp {
+        width: 30%;
+        height: 50%;
+        /* background-color: aqua; */
+        position: absolute;
+        margin-left: 210px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 30%;
+
+        >p {
+            font-size: 30px;
+            padding: 15px;
+            text-align: center;
+
+        }
+
+
+
+
+    }
+
+    >.email {
+        font-size: 25px;
+        left: 250px;
+        top: 250px;
+        position: absolute;
+        font-weight: 900;
+        color: orangered;
+    }
+
+    >.spanend-about {
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        /* background-color: red; */
+        right: 0;
+
+
+
+        >a {
+            display: flex;
+            /* border: 1px solid white; */
+            width: 50px;
+            margin-top: 20px;
+            margin-left: 20px;
+            transition: 0.7s;
+
+            &:hover {
+                scale: 1.1;
+            }
+
+            >span {
+                width: 50px;
+                height: 50px;
+
+            }
+        }
+    }
+}
